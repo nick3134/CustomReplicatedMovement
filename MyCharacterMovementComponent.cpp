@@ -404,9 +404,6 @@ bool UMyCharacterMovementComponent::AreRequiredWallRunKeysDown() const
 	// Since this function is checking for input, it should only be called for locally controlled character
 	if (GetPawnOwner()->IsLocallyControlled() == false)
 		return false;
-	
-	/*if (WantsToSprint)
-		return true;*/
 
 	if(WantsToJump)
 		return true;
