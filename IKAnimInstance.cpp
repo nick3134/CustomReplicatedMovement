@@ -117,7 +117,7 @@ void UIKAnimInstance::UpdateWeaponInfo(const float DeltaSeconds)
 
 void UIKAnimInstance::UpdateRotationInfo(const float DeltaSeconds)
 {
-	/*if (Character)
+	if (Character)
 	{
 		if (Speed > 50)
 		{
@@ -154,7 +154,7 @@ void UIKAnimInstance::UpdateRotationInfo(const float DeltaSeconds)
 		}
 		
 		SpineRotation = FRotator(0.f, (AimAngle - InitialAimAngle) / 4.f, 0.f);
-	}*/
+	}
 	if (Character)
 	{
 		RootRotation = GetOwningActor()->GetRootComponent()->GetOwner()->GetActorRotation();
